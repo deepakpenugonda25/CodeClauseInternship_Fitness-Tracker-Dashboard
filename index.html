@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <font face="Times New Roman"><h1>Fitness Tracker Dashboard</h1></font>
+    </header>
+    <main>
+        <section class="statistics">
+            <font face="Time New Roman" size="4"><h2>Your Statistics</h2></font>
+            <div class="stats-container">
+                <div class="stat">
+                    <img src="images/steps.jpg" alt="Steps">
+                    <font face="impact"><p>Steps: <span id="steps">0</span></p></font>
+                </div>
+                <div class="stat">
+                    <img src="images/calories.jpg" alt="Calories">
+                    <font face="impact"><p>Calories Burned: <span id="calories">0</span></p></font>
+                </div>
+                <div class="stat">
+                    <img src="images/distance.jpg" alt="Distance">
+                    <font face="impact"><p>Distance: <span id="distance">0</span></p></font>
+                </div>
+            </div>
+        </section>
+        <section class="workout-plans">
+            <font face="Times New Roman" size="4"><h2>Personalized Workout Plans</h2></font>
+            <div class="workout-container">
+                <!-- Workout plans will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d2d6b4;
+}
+
+header {
+    background-color: #b44e23;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.statistics, .workout-plans {
+    margin-bottom: 2em;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat {
+    background-color: rgb(243, 185, 226);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(21, 3, 220);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 30%;
+}
+
+.stat img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.workout-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workout {
+    background-color: rgb(167, 245, 223);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 1em;
+    width: 45%;
+}
+
+.workout h3 {
+    margin-top: 30;
+}
